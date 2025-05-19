@@ -1,0 +1,10 @@
+.job-info {
+    display: flex;
+    justify-content: space-between; /* Creates space between the columns */
+  }
+  
+  .job-info > div {
+    flex: 1; /* Each column takes up equal space */
+    margin-right: 20px; /* Adjust the spacing between columns */
+  }
+  
